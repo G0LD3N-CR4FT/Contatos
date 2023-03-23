@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="alert alert-primary">
+                    <h1 class="text-dark text-center">
+                        Sistema Para Controle de Contatos
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-12">
+                <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link" data-toggle="pill" href="API/contato/view/list.html" role="tab" aria-controls="v-pills-home" aria-selected="false">Listagem</a>
+                    <a class="nav-link" data-toggle="pill" href="API/contato/view/form.html" role="tab" aria-controls="v-pills-profile" aria-selected="false">Cadastro</a>
+                    <a class="nav-link" data-toggle="pill" href="" role="tab" aria-controls="v-pills-messages" aria-selected="false">Atualização</a>
+                    <a class="nav-link" data-toggle="pill" href="" role="tab" aria-controls="v-pills-settings" aria-selected="false">Sair do Sistema</a>
+                  </div>
+            </div>
+            <!-- Div que receberá o nosso conteúdo dinÂmico-->
+            <div id="content" class="col-12 col-sm-10 col-md-10">
+                <h1 class="text-dark text-center">
+                    Seja Bem vindo ao sistema!
+                </h1>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/jquery-3.6.4.js"></script>
+    <script src="assets/js/menu.js"></script>
+</body>
+</html>
